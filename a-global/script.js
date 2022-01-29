@@ -1,3 +1,6 @@
+window.alert('Ola! seja bem vindo')
+window.confirm('Você esta ajudando a diminuir os impactos ambientais?')
+
 const imgs = document.getElementById("img");
 const img = document.querySelectorAll("#img img");
 
@@ -14,3 +17,4 @@ function carrossel(){
 }
 
 setInterval(carrossel, 1800);
+
